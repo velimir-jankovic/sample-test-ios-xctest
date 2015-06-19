@@ -8,7 +8,6 @@
 
 import UIKit
 import XCTest
-import BitriseTestingSample
 
 class BitriseTestingSampleTests: XCTestCase {
     
@@ -35,7 +34,7 @@ class BitriseTestingSampleTests: XCTestCase {
     }
     
     func testNetworking() {
-        XCTAssertEqual(ViewController.pingServer(), true, "ping server should return true");
+        XCTAssertEqual(ConnectionHelper.pingServer(), true, "ping server should return true");
     }
     
 }
