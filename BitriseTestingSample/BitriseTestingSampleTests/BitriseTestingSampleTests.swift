@@ -33,4 +33,8 @@ class BitriseTestingSampleTests: XCTestCase {
         }
     }
     
+    func testNetworking() {
+        XCTAssert(ConnectionHelper.pingServer(), "The server should respond and the status code should be 200");
+    }
+    
 }

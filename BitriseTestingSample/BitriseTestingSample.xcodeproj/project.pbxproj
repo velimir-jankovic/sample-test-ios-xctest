@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A36332D61B344FF900465BBF /* ConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36332D51B344FF900465BBF /* ConnectionHelper.swift */; };
+		A36332D71B344FFC00465BBF /* ConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36332D51B344FF900465BBF /* ConnectionHelper.swift */; };
 		BA0701DE1B31D21B0011D862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0701DD1B31D21B0011D862 /* AppDelegate.swift */; };
 		BA0701E11B31D21B0011D862 /* BitriseTestingSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA0701DF1B31D21B0011D862 /* BitriseTestingSample.xcdatamodeld */; };
 		BA0701E31B31D21B0011D862 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0701E21B31D21B0011D862 /* ViewController.swift */; };
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A36332D51B344FF900465BBF /* ConnectionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionHelper.swift; sourceTree = "<group>"; };
 		BA0701D81B31D21B0011D862 /* BitriseTestingSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitriseTestingSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0701DC1B31D21B0011D862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA0701DD1B31D21B0011D862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +89,7 @@
 				BA0701E91B31D21B0011D862 /* LaunchScreen.xib */,
 				BA0701DF1B31D21B0011D862 /* BitriseTestingSample.xcdatamodeld */,
 				BA0701DB1B31D21B0011D862 /* Supporting Files */,
+				A36332D51B344FF900465BBF /* ConnectionHelper.swift */,
 			);
 			path = BitriseTestingSample;
 			sourceTree = "<group>";
@@ -216,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA0701E31B31D21B0011D862 /* ViewController.swift in Sources */,
+				A36332D61B344FF900465BBF /* ConnectionHelper.swift in Sources */,
 				BA0701DE1B31D21B0011D862 /* AppDelegate.swift in Sources */,
 				BA0701E11B31D21B0011D862 /* BitriseTestingSample.xcdatamodeld in Sources */,
 			);
@@ -226,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA0701F71B31D21B0011D862 /* BitriseTestingSampleTests.swift in Sources */,
+				A36332D71B344FFC00465BBF /* ConnectionHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +421,7 @@
 				BA0701FC1B31D21B0011D862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA0701FD1B31D21B0011D862 /* Build configuration list for PBXNativeTarget "BitriseTestingSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +430,7 @@
 				BA0701FF1B31D21B0011D862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
