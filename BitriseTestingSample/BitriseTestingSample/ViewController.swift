@@ -22,30 +22,24 @@ class ViewController: UIViewController {
     }
     
     @IBAction func testButtonTouched(sender: AnyObject) {
-        testLabel.hidden = true;
+    }
+    
+    static func pingServer() -> Bool {
         let urlPath: String = "http://google.com"
         var url: NSURL = NSURL(string: urlPath)!
         var request1: NSURLRequest = NSURLRequest(URL: url)
-        let queue:NSOperationQueue = NSOperationQueue()
-        NSURLConnection.sendAsynchronousRequest(request1, queue: queue, completionHandler:{ (response: NSURLResponse!, data: NSData!, error: NSError!) -> Void in
-            var err: NSError
-            let httpResponse = response as? NSHTTPURLResponse
-            let responseStatus = httpResponse!.statusCode;
-            if(responseStatus == 200)
+        var response: NSURLResponse?
+        var error: NSError?
+        let urlData = NSURLConnection.sendSynchronousRequest(request1, returningResponse: &response, error: &error)
+        if let httpResponse = response as? NSHTTPURLResponse {
+            if(httpResponse.statusCode == 200)
             {
-                dispatch_async(dispatch_get_main_queue()) {
-                    self.testLabel.text = "Great Success! We got status " + String(stringInterpolationSegment: responseStatus) + (" from the server! Nice job!");
-                    self.testLabel.hidden = false;
-                }
+                return true
+            } else {
+                return false
             }
-            else
-            {
-                dispatch_async(dispatch_get_main_queue()) {
-                self.testLabel.text = "Oh no! We got status " + String(stringInterpolationSegment: responseStatus) + (" from the server!");
-                self.testLabel.hidden = false;
-                }
-            }
-        })
+        }
+        return false
     }
 }
 

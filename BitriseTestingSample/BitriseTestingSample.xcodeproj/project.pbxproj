@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A36332CF1B343C3500465BBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0701E21B31D21B0011D862 /* ViewController.swift */; };
 		BA0701DE1B31D21B0011D862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0701DD1B31D21B0011D862 /* AppDelegate.swift */; };
 		BA0701E11B31D21B0011D862 /* BitriseTestingSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA0701DF1B31D21B0011D862 /* BitriseTestingSample.xcdatamodeld */; };
 		BA0701E31B31D21B0011D862 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0701E21B31D21B0011D862 /* ViewController.swift */; };
@@ -225,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36332CF1B343C3500465BBF /* ViewController.swift in Sources */,
 				BA0701F71B31D21B0011D862 /* BitriseTestingSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +417,7 @@
 				BA0701FC1B31D21B0011D862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA0701FD1B31D21B0011D862 /* Build configuration list for PBXNativeTarget "BitriseTestingSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +426,7 @@
 				BA0701FF1B31D21B0011D862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

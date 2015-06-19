@@ -8,6 +8,7 @@
 
 import UIKit
 import XCTest
+import BitriseTestingSample
 
 class BitriseTestingSampleTests: XCTestCase {
     
@@ -31,6 +32,10 @@ class BitriseTestingSampleTests: XCTestCase {
         self.measureBlock() {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func testNetworking() {
+        XCTAssertEqual(ViewController.pingServer(), true, "ping server should return true");
     }
     
 }
