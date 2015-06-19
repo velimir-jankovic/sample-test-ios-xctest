@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A36332CF1B343C3500465BBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0701E21B31D21B0011D862 /* ViewController.swift */; };
 		A36332D61B344FF900465BBF /* ConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36332D51B344FF900465BBF /* ConnectionHelper.swift */; };
 		A36332D71B344FFC00465BBF /* ConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36332D51B344FF900465BBF /* ConnectionHelper.swift */; };
 		BA0701DE1B31D21B0011D862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0701DD1B31D21B0011D862 /* AppDelegate.swift */; };
@@ -231,7 +230,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A36332CF1B343C3500465BBF /* ViewController.swift in Sources */,
 				BA0701F71B31D21B0011D862 /* BitriseTestingSampleTests.swift in Sources */,
 				A36332D71B344FFC00465BBF /* ConnectionHelper.swift in Sources */,
 			);
