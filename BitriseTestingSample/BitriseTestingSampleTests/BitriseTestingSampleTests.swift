@@ -34,7 +34,7 @@ class BitriseTestingSampleTests: XCTestCase {
     }
     
     func testNetworking() {
-        XCTAssertEqual(ConnectionHelper.pingServer(), true, "ping server should return true");
+        XCTAssert(ConnectionHelper.pingServer(), "The server should respond and the status code should be 200");
     }
     
 }
